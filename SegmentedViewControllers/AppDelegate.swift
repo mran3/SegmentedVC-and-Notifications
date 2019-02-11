@@ -1,6 +1,4 @@
-//
-//  AppDelegate.swift
-//  SegmentedViewControllers
+//  Small test app for segmented navigation and Unit Tests
 //
 //  Created by troquer on 20/01/2019.
 //  Copyright © 2019 acvc. All rights reserved.

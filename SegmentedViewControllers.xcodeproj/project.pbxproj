@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5E12D8220F9C640020AC99 /* SegmentedViewControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E12D7220F9C640020AC99 /* SegmentedViewControllersTests.swift */; };
+		0C5E12E12210A9140020AC99 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5E12E02210A9140020AC99 /* UserNotifications.framework */; };
+		0C5E12E322110B820020AC99 /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E12E222110B820020AC99 /* NotificationsVC.swift */; };
 		0CD3361A21F5386B0060F049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3361921F5386B0060F049 /* AppDelegate.swift */; };
 		0CD3361C21F5386B0060F049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3361B21F5386B0060F049 /* ViewController.swift */; };
 		0CD3361F21F5386B0060F049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD3361D21F5386B0060F049 /* Main.storyboard */; };
 		0CD3362121F5386D0060F049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD3362021F5386D0060F049 /* Assets.xcassets */; };
 		0CD3362421F5386D0060F049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD3362221F5386D0060F049 /* LaunchScreen.storyboard */; };
+		0CD3362E21F581830060F049 /* SimpleVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3362C21F581830060F049 /* SimpleVC1.swift */; };
+		0CD3362F21F581830060F049 /* SimpleVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD3362D21F581830060F049 /* SimpleVC1.xib */; };
+		0CD3363221F582380060F049 /* SimpleVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3363021F582380060F049 /* SimpleVC2.swift */; };
+		0CD3363321F582380060F049 /* SimpleVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD3363121F582380060F049 /* SimpleVC2.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0C5E12DA220F9C650020AC99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD3360E21F5386B0060F049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD3361521F5386B0060F049;
+			remoteInfo = SegmentedViewControllers;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0C5E12D5220F9C640020AC99 /* SegmentedViewControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentedViewControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5E12D7220F9C640020AC99 /* SegmentedViewControllersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewControllersTests.swift; sourceTree = "<group>"; };
+		0C5E12D9220F9C650020AC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5E12E02210A9140020AC99 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		0C5E12E222110B820020AC99 /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
 		0CD3361621F5386B0060F049 /* SegmentedViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD3361921F5386B0060F049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD3361B21F5386B0060F049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +44,55 @@
 		0CD3362021F5386D0060F049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CD3362321F5386D0060F049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD3362521F5386D0060F049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD3362C21F581830060F049 /* SimpleVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVC1.swift; sourceTree = "<group>"; };
+		0CD3362D21F581830060F049 /* SimpleVC1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleVC1.xib; sourceTree = "<group>"; };
+		0CD3363021F582380060F049 /* SimpleVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVC2.swift; sourceTree = "<group>"; };
+		0CD3363121F582380060F049 /* SimpleVC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleVC2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0CD3361321F5386B0060F049 /* Frameworks */ = {
+		0C5E12D2220F9C640020AC99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CD3361321F5386B0060F049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5E12E12210A9140020AC99 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C5E12D6220F9C640020AC99 /* SegmentedViewControllersTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C5E12D7220F9C640020AC99 /* SegmentedViewControllersTests.swift */,
+				0C5E12D9220F9C650020AC99 /* Info.plist */,
+			);
+			path = SegmentedViewControllersTests;
+			sourceTree = "<group>";
+		};
+		0C5E12DF2210A9130020AC99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C5E12E02210A9140020AC99 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0CD3360D21F5386B0060F049 = {
 			isa = PBXGroup;
 			children = (
 				0CD3361821F5386B0060F049 /* SegmentedViewControllers */,
+				0C5E12D6220F9C640020AC99 /* SegmentedViewControllersTests */,
 				0CD3361721F5386B0060F049 /* Products */,
+				0C5E12DF2210A9130020AC99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0CD3361621F5386B0060F049 /* SegmentedViewControllers.app */,
+				0C5E12D5220F9C640020AC99 /* SegmentedViewControllersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,19 +108,50 @@
 		0CD3361821F5386B0060F049 /* SegmentedViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0CD3362B21F56C950060F049 /* SimpleViews */,
 				0CD3361921F5386B0060F049 /* AppDelegate.swift */,
 				0CD3361B21F5386B0060F049 /* ViewController.swift */,
 				0CD3361D21F5386B0060F049 /* Main.storyboard */,
 				0CD3362021F5386D0060F049 /* Assets.xcassets */,
 				0CD3362221F5386D0060F049 /* LaunchScreen.storyboard */,
 				0CD3362521F5386D0060F049 /* Info.plist */,
+				0C5E12E222110B820020AC99 /* NotificationsVC.swift */,
 			);
 			path = SegmentedViewControllers;
+			sourceTree = "<group>";
+		};
+		0CD3362B21F56C950060F049 /* SimpleViews */ = {
+			isa = PBXGroup;
+			children = (
+				0CD3362C21F581830060F049 /* SimpleVC1.swift */,
+				0CD3362D21F581830060F049 /* SimpleVC1.xib */,
+				0CD3363021F582380060F049 /* SimpleVC2.swift */,
+				0CD3363121F582380060F049 /* SimpleVC2.xib */,
+			);
+			path = SimpleViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C5E12D4220F9C640020AC99 /* SegmentedViewControllersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5E12DE220F9C650020AC99 /* Build configuration list for PBXNativeTarget "SegmentedViewControllersTests" */;
+			buildPhases = (
+				0C5E12D1220F9C640020AC99 /* Sources */,
+				0C5E12D2220F9C640020AC99 /* Frameworks */,
+				0C5E12D3220F9C640020AC99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C5E12DB220F9C650020AC99 /* PBXTargetDependency */,
+			);
+			name = SegmentedViewControllersTests;
+			productName = SegmentedViewControllersTests;
+			productReference = 0C5E12D5220F9C640020AC99 /* SegmentedViewControllersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0CD3361521F5386B0060F049 /* SegmentedViewControllers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CD3362821F5386D0060F049 /* Build configuration list for PBXNativeTarget "SegmentedViewControllers" */;
@@ -94,6 +179,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = acvc;
 				TargetAttributes = {
+					0C5E12D4220F9C640020AC99 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0CD3361521F5386B0060F049;
+					};
 					0CD3361521F5386B0060F049 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -113,17 +202,27 @@
 			projectRoot = "";
 			targets = (
 				0CD3361521F5386B0060F049 /* SegmentedViewControllers */,
+				0C5E12D4220F9C640020AC99 /* SegmentedViewControllersTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C5E12D3220F9C640020AC99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CD3361421F5386B0060F049 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0CD3362421F5386D0060F049 /* LaunchScreen.storyboard in Resources */,
 				0CD3362121F5386D0060F049 /* Assets.xcassets in Resources */,
+				0CD3363321F582380060F049 /* SimpleVC2.xib in Resources */,
+				0CD3362F21F581830060F049 /* SimpleVC1.xib in Resources */,
 				0CD3361F21F5386B0060F049 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,16 +230,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C5E12D1220F9C640020AC99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5E12D8220F9C640020AC99 /* SegmentedViewControllersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CD3361221F5386B0060F049 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0CD3361C21F5386B0060F049 /* ViewController.swift in Sources */,
+				0C5E12E322110B820020AC99 /* NotificationsVC.swift in Sources */,
 				0CD3361A21F5386B0060F049 /* AppDelegate.swift in Sources */,
+				0CD3362E21F581830060F049 /* SimpleVC1.swift in Sources */,
+				0CD3363221F582380060F049 /* SimpleVC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C5E12DB220F9C650020AC99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD3361521F5386B0060F049 /* SegmentedViewControllers */;
+			targetProxy = 0C5E12DA220F9C650020AC99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0CD3361D21F5386B0060F049 /* Main.storyboard */ = {
@@ -162,6 +280,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C5E12DC220F9C650020AC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAL6A7M5FF;
+				INFOPLIST_FILE = SegmentedViewControllersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aac.SegmentedViewControllersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SegmentedViewControllers.app/SegmentedViewControllers";
+			};
+			name = Debug;
+		};
+		0C5E12DD220F9C650020AC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAL6A7M5FF;
+				INFOPLIST_FILE = SegmentedViewControllersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aac.SegmentedViewControllersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SegmentedViewControllers.app/SegmentedViewControllers";
+			};
+			name = Release;
+		};
 		0CD3362621F5386D0060F049 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -220,6 +378,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -274,6 +433,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -285,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VAL6A7M5FF;
 				INFOPLIST_FILE = SegmentedViewControllers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VAL6A7M5FF;
 				INFOPLIST_FILE = SegmentedViewControllers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +479,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C5E12DE220F9C650020AC99 /* Build configuration list for PBXNativeTarget "SegmentedViewControllersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5E12DC220F9C650020AC99 /* Debug */,
+				0C5E12DD220F9C650020AC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0CD3361121F5386B0060F049 /* Build configuration list for PBXProject "SegmentedViewControllers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
